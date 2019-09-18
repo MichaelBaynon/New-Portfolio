@@ -38,3 +38,83 @@ body {
     margin-left: 20px
     
   }
+
+  .callToAction {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .projects {
+    
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgba(59, 59, 59, 0.377);
+    color: grey;
+    text-decoration: none;
+    border-right: 1px solid rgb(126, 126, 126);
+    box-shadow: 2px 2px 5px grey;
+    border-bottom-right-radius: grey 10px;
+    border-top-right-radius:  10px;
+  }
+
+  .text a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  .text a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
+  .projects img {
+    border: 1px solid grey;
+    border-bottom-left-radius:  10px;
+    border-top-left-radius:  10px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .GuidrTitle {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 30px;
+  }
+
+  .guidr {
+    display: flex;
+    padding-bottom: 80px;
+  }
+
+  .worthymon {
+    display: flex;
+    padding-bottom: 50px;
+  }
+
+  .WorthymonTitle {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
